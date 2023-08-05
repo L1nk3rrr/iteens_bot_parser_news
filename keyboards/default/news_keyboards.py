@@ -1,8 +1,9 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-choose = ReplyKeyboardMarkup(
+news_categories = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Екомонічні новини")],
-        [KeyboardButton(text="Політичні новини")],
-    ]
+        [KeyboardButton(text="Економічні новини"), KeyboardButton(text="Політичні новини")],
+        [KeyboardButton(text="Cуспільні новини"), KeyboardButton(text="Міжнародні новини")],
+    ],
+    resize_keyboard=True
 )

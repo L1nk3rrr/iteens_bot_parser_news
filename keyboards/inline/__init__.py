@@ -1,1 +1,1 @@
-
+from .news_inline_kb import create_news_inline_buttons
